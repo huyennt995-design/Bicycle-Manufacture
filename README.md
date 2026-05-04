@@ -180,6 +180,7 @@ The Breakdown:
 
 **Action:**  Run a specific marketing campaign at the 90-day mark to make sure even more people come back (e.g: send a friendly “We miss you” email or special offer).
 
+[Back to top](#-8-strategic-queries)
 ---
 
 ### 3. Supply Chain & Inventory Operations
@@ -221,6 +222,8 @@ The Breakdown:
 - **Launc**h a specific “Year-End Clearance” or **marketing strategy** to clear the near-zero demand stock.
 - **Adjust Inventory to Favorite Colors**: Shift your budget and warehouse space to favorite colors and models that have higher demand to ensure you don’t run out of what customers actually want to buy.
 
+[⬆ Back to top](#8-strategic-queries)
+
 ---
 
 ### 4. Procurement & Financial Status
@@ -251,3 +254,5 @@ This project demonstrates how data analysis can improve a bicycle manufacturing 
 - **Profit Growth**: Nearly 90% of revenue comes from Mountains Bike. The comany should focus marketing on this category.
 - **Customer Loyalty**: The Cohort Analysis shows exactly when the customers stop buying (churn). This allows the marketing team to send targeted discounts or loyalty reward at a the right time to encourage the repeat purchases.
 - **Inventory Efficiency**: By tracking the Stock-to-Sales ration, we can foucs on colors and models that customers actually want. Additionally, we should remove products with near-zero demand to free up capital and warehouse space for faster-moving goods.
+
+[⬆ Back to top](#8-strategic-queries)
