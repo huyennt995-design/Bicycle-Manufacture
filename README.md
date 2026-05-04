@@ -1,5 +1,11 @@
 # AdventureWorks Data Analysis (SQL Project) - Bicycle Manufacture
-* [1. Sales Performance](#🏁-final-project-conclusion)
+
+### 📌 Quick Navigation
+* [1. Sales Performance](#1-sales--growth-performance)
+* [2. Marketing & Customer Insights](#2-marketing--customer-insights)
+* [3. Supply Chain & Inventory Operations](#3-supply-chain--inventory-operations)
+* [4. Procurement & Financial Status](#4-procurement--financial-status)
+* [5. Final Conclusion](#-final-project-conclusion)
 
 ## 📝 Executive Summary
 
