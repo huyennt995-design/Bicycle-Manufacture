@@ -145,6 +145,8 @@ The cost of seasonal discounts for Helmets has nearly doubled. This indicates th
 - **Review profits**: Make sure the helmet sales are making up for the money we are ‘giving away’ through larger discounts.
 - **Budget Adjustment**: Use theses numbers to set a strict ‘discount budget’ for next year, so we don’t accidentally cut too deep into our earnings.
 
+[⬆ Back to top](#8-strategic-queries)
+
 ---
 
 **👥 Query 5 (Retention/Cohort Analysis):** Measures the **Customer Retention Rate** for 2014, tracking month-by-month activity from the initial join date (M-0, M-1, etc.).
@@ -181,6 +183,7 @@ The Breakdown:
 **Action:**  Run a specific marketing campaign at the 90-day mark to make sure even more people come back (e.g: send a friendly “We miss you” email or special offer).
 
 [⬆ Back to top](#8-strategic-queries)
+
 ---
 
 ### 3. Supply Chain & Inventory Operations
