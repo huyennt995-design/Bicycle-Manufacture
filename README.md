@@ -180,7 +180,7 @@ The Breakdown:
 
 **Action:**  Run a specific marketing campaign at the 90-day mark to make sure even more people come back (e.g: send a friendly “We miss you” email or special offer).
 
-[Back to top](#-8-strategic-queries)
+[⬆ Back to top](#8-strategic-queries)
 ---
 
 ### 3. Supply Chain & Inventory Operations
