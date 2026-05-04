@@ -131,12 +131,6 @@ Theses 3 items have seen massive jumps in sales compared to last year (alle exce
 
 **🗺️ Query 3 (Regional Ranking):** Ranks the Top 3 territories by order volume for each year to **identify high-performing markets**.
 
-![image.png](attachment:dbe81e87-c003-4b71-80f9-0a87f24ae098:image.png)
-
-**Query results:**
-
-![image.png](attachment:dc343493-e58c-49f9-bc27-dda07035e100:image.png)
-
 #### 💡 **Business Insights & Actions:**
 
 All these territories listed have seen massive increases in order volumns between 2011 and 2013.
@@ -144,6 +138,26 @@ All these territories listed have seen massive increases in order volumns betwee
 **Note:** There is a noticeable dip in 2014 data (which may represent partial-year results), but the overall multi-year trend shows explosive growth.
 
 **Action**: Should proritize marketing budget here. Focusing advertising on Territory 4 and 6 specifically will help maintain this strong momentum and capture even more market share.
+
+**📊 Quick View (Regional Performance Hub):**
+| Territory | 2011 Orders | 2013 Orders (Peak) | Growth (%) | Status |
+| :--- | :---: | :---: | :---: | :--- |
+| **Territory 4** | 3,238 | **26,682** | **+724%** | 🔥 High Momentum |
+| **Territory 6** | 2,705 | 22,553 | +733% | 🚀 Rapid Scaling |
+| **Territory 1** | 1,964 | 17,452 | +788% | ✅ Strong Growth |
+
+<details>
+  <summary>🔍 View SQL Code & Query Results</summary>
+
+  #### SQL Script: 
+  <img src="https://github.com/user-attachments/assets/7139d488-e173-494f-8bee-ca216c5b2932" width="800px" alt="SQL Code">
+
+  #### Result:
+  <img src="https://github.com/user-attachments/assets/99a16329-4640-40a7-b783-80716431e12b" width="800px" alt="Query Result">
+
+</details>
+
+[⬆ Back to top](#8-strategic-queries)
 
 ---
 
