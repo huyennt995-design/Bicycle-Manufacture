@@ -74,18 +74,29 @@ AdventureWorks is a complex manufacturing company. To analyze this dataset deepl
 **📊 Query 1 (L12M Performance):** Calculates total items sold, sales value, and order frequency per subcategory for the Last 12 Months.
 
 **💡 Insight:** Identifying the "Revenue Drivers." This query highlights which subcategories contribute the most to the bottom line.
-
-![image.png](attachment:8c16f559-3336-4344-bed5-1f94395dfce5:image.png)
-
-**Query results:**
-
-![image.png](attachment:ed6783aa-72c1-4cab-9e5f-2fe8e2310e36:image.png)
-
 #### 💡 **Business Insights & Actions:**
 
-- **High-Value Focus: ‘Mountain Bikes’** contribute nearly 90% of total revenue despite lower order volumn. **Action**: Invest in premium category for this category.
+- **High-Value Focus: ‘Mountain Bikes’** contribute over $1.24M in a single period despite lower order volume. **Action**: Invest in premium category for this category.
 - **Cross-sell Oppotunity**: ‘**Helmets’** and ‘**Jerseys’** have high transaction frequency. **Action**: Bundle these as ‘Safety Kits’ with every bike purchase.
 - **Inventory Optimization:**  **‘Locks’** show only near-zero demand. **Action**: Check stock levels and sell in bundles or reduce price to free up capital.
+
+**📊 Key Performance Indicators (Quick View):**
+| Category | Total Value | Orders | Status |
+| :--- |  :--- |  :--- |  :--- |
+| **Mountain Bikes** | **$1,244,716** | 263 | ⭐ Star |
+| **Jerseys** | $48,318 | 304 | ✅ High Vol |
+| **Locks** | $15 | 1 | ⚠️ Low Demand |
+
+<details>
+  <summary>🔍 View SQL Code & Query Results</summary>
+
+  #### SQL Script: 
+  <img src="https://github.com/user-attachments/assets/feedb860-f145-4a01-be29-b0c602e4254a" width="800px" alt="SQL Code">
+
+  #### Result:
+  <img src="https://github.com/user-attachments/assets/f911cb45-6386-4ee1-88eb-40fd36298d7c" width="800px" alt="Query Result">
+
+</details>
 
 ---
 
