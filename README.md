@@ -1,2 +1,2 @@
-# Bicycle-Manufacture
-AdventureWorks Data Analysis (SQL Project)
+# AdventureWorks Data Analysis - Bicycle-Manufacture
+(SQL Project)
