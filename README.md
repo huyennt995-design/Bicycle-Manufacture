@@ -103,16 +103,28 @@ AdventureWorks is a complex manufacturing company. To analyze this dataset deepl
 **📈 Query 2 (YoY Growth):** Analyzes Year-over-Year growth rates and identifies the **Top 3 fastest-growing subcategories** using `DENSE_RANK`.
 
 💡 **Insight**: Identifying growth momentum helps the production team prioritize high-demand bike models.
-
-![image.png](attachment:1c4e7ff7-d367-4093-b4b9-27fee42f7d39:image.png)
-
-**Query results:**
-
-![image.png](attachment:ec681a12-b3b8-4b40-afa9-f67312aa81bb:image.png)
-
 #### 💡 **Business Insights & Actions:**
 
 Theses 3 items have seen massive jumps in sales compared to last year (alle exceeding the 3x growth). **Action**: Increase marketing budget for these categories to maximize the profits.
+
+**📊 Quick View (Top Growth Subcategories):**
+| Subcategory | Current Qty | Previous Qty | Growth Rate | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mountain Frames** | **3,168** | 510 | **5.21x** | 🔥 Critical Growth |
+| **Socks** | 2,724 | 523 | 4.21x | 🚀 High Demand |
+| **Road Frames** | 5,564 | 1,137 | 3.89x | ✅ Steady Rise |
+
+<details>
+  <summary>🔍 View SQL Code & Query Results</summary>
+
+  #### SQL Script: 
+  <img src="https://github.com/user-attachments/assets/6592e553-807f-45f8-9a11-d8288a376611" width="800px" alt="SQL Code">
+
+  #### Result:
+  <img src="https://github.com/user-attachments/assets/902e0287-e003-4274-9f5f-37917e72cfa9" width="800px" alt="Query Result">
+
+</details>
+
 
 ---
 
