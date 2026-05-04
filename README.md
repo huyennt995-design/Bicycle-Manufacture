@@ -40,9 +40,6 @@ Below is the detailed mapping of relationships between Fact and Dimension tables
 
 ## 🚀**Project Key Highlights**
 
-<details>
-  <summary><b>▶ Click to expand: Project Key Details</b></summary>
-
 | **ID** | **Business Question** | **Key Metrics** | **SQL Techniques Used** | **Complexity** |
 | --- | --- | --- | --- | --- |
 | **Q1** | Sales Performance (L12M) | Revenue, Order Qty, Item Count | `DATE_TRUNC`, `FORMAT_DATETIME`, `Subquery` | ⭐⭐ |
@@ -54,7 +51,6 @@ Below is the detailed mapping of relationships between Fact and Dimension tables
 | **Q7** | Operational Efficiency | **Stock-to-Sales Ratio** | `COALESCE()`, `NULLIF()`, `Cross-schema Join` | ⭐⭐ |
 | **Q8** | Cash Flow Forecasting | Pending Order Value | `EXTRACT`, `Status Filtering` | ⭐ |
 
-</details>
 
 ## 🔍 **Deep Dive: Understanding the Business Model**
 
