@@ -28,20 +28,20 @@ Below is the detailed mapping of relationships between Fact and Dimension tables
 <details>
   <summary><b>▶ Click to expand: Table Join Details</b></summary>
 
-| Business Area | Fact Table (Linked From / FK) | Dimension Table (Linked to / PK) | Join Key | Purpose |
-| :--- | :--- | :--- | :--- | :--- |
-| **Sales** | `Sales.SalesOrderDetail` | `Production.Product` | `ProductID` | Get product names and prices for sales reports. |
-| **Sales** | `Sales.SalesOrderDetail` | `Sales.SalesOrderHeader` | `SalesOrderID` | Link line items to order-level details (Date, Total). |
-| **Sales** | `Sales.SalesOrderDetail` | `Sales.SpecialOfferProduct` | `SpecialOfferID`, `ProductID` | Identify promotions applied to specific items. |
-| **Sales** | `Sales.SalesOrderHeader` | `Sales.SalesTerritory` | `TerritoryID` | Analyze sales performance by geographic region. |
-| **Marketing** | `Sales.SpecialOfferProduct`| `Sales.SpecialOffer` | `SpecialOfferID` | Retrieve details of specific discounts/promotions. |
-| **Marketing** | `Sales.SpecialOfferProduct`| `Production.Product` | `ProductID` | List products included in special offers. |
-| **Purchasing** | `Purchasing.PurchaseOrderDetail`| `Production.Product` | `ProductID` | Link vendor orders to specific product items. |
-| **Purchasing** | `Purchasing.PurchaseOrderDetail`| `Purchasing.PurchaseOrderHeader`| `PurchaseOrderID` | Connect order lines to main purchase header. |
-| **Production** | `Production.Product` | `Production.ProductSubcategory`| `ProductSubcategoryID` | Group products into sub-categories. |
-| **Production** | `Production.ProductSubcategory`| `Production.ProductCategory` | `ProductCategoryID` | Roll up sub-categories into main categories. |
-| **Production** | `Production.WorkOrder` | `Production.Product` | `ProductID` | Track manufacturing progress for products. |
-| **Inventory** | `Production.ProductInventory` | `Production.Product` | `ProductID` | Monitor stock levels and storage locations. |
+| Business Area| Fact Table (Linked From / FK)| Dimension Table (Linked to / PK)| Join Key | Purpose |
+| :--- | :---| :---| :---| :---|
+| **Sales** |`Sales.SalesOrderDetail`|`Production.Product` | `ProductID` | Get product names and prices for sales reports. |
+| **Sales** |`Sales.SalesOrderDetail`|`Sales.SalesOrderHeader` | `SalesOrderID` | Link line items to order-level details (Date, Total). |
+| **Sales** |`Sales.SalesOrderDetail`|`Sales.SpecialOfferProduct` | `SpecialOfferID`, `ProductID` | Identify promotions applied to specific items. |
+| **Sales** |`Sales.SalesOrderHeader`|`Sales.SalesTerritory` | `TerritoryID` | Analyze sales performance by geographic region. |
+| **Marketing** |`Sales.SpecialOfferProduct`|`Sales.SpecialOffer` | `SpecialOfferID` | Retrieve details of specific discounts/promotions. |
+| **Marketing** |`Sales.SpecialOfferProduct`|`Production.Product` | `ProductID` | List products included in special offers. |
+| **Purchasing** |`Purchasing.PurchaseOrderDetail`|`Production.Product` | `ProductID` | Link vendor orders to specific product items. |
+| **Purchasing** |`Purchasing.PurchaseOrderDetail`|`Purchasing.PurchaseOrderHeader`| `PurchaseOrderID` | Connect order lines to main purchase header. |
+| **Production** |`Production.Product` |`Production.ProductSubcategory`| `ProductSubcategoryID` | Group products into sub-categories. |
+| **Production** |`Production.ProductSubcategory`|`Production.ProductCategory` | `ProductCategoryID` | Roll up sub-categories into main categories. |
+| **Production** |`Production.WorkOrder` |`Production.Product` | `ProductID` | Track manufacturing progress for products. |
+| **Inventory** |`Production.ProductInventory`|`Production.Product` | `ProductID` | Monitor stock levels and storage locations. |
 
 </details>
 
